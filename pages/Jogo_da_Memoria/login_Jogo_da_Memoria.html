@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="../../css/Jogo_da_Memoria/reset_Jogo_da_Memoria.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/Jogo_da_Memoria/login_Jogo_da_Memoria.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/componentes/componentes-principais.css"
+    />
 
-  <link rel="stylesheet" href="../../css/Jogo_da_Memoria/reset_Jogo_da_Memoria.css">
-  <link rel="stylesheet" href="../../css/Jogo_da_Memoria/login_Jogo_da_Memoria.css">
+    <script
+      defer
+      src="../../js/Jogo_da_Memoria/login_Jogo_da_Memoria.js"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="../../img/Jogo_da_Memoria/brain.png"
+      type="image/x-icon"
+    />
+    <title>MST</title>
+  </head>
 
-  <script defer src="../../js/Jogo_da_Memoria/login_Jogo_da_Memoria.js"></script>
-  <link rel="shortcut icon" href="../../img/Jogo_da_Memoria/brain.png" type="image/x-icon">
-  <title>MST</title>
-</head>
-
-<body>
-
-  <header>           
-    <div class="logo-container">
+  <body>
+    <header>
+      <div class="logo-container">
         <a href="../../index.html">
-            <img src="../../img/logo.png" alt="logo">
-            <h1>MST</h1>
+          <img src="../../img/logo.png" alt="logo" />
+          <h1>MST</h1>
         </a>
-    </div> 
-    <hr>
-  </header>
-  
-  <section class="voltar">
+      </div>
+      <hr />
+    </header>
 
-    <a href="../../index.html">
+    <section class="voltar">
+      <a href="../../index.html">
         <div class="voltar-op-1">
-            <img src="../../img/icon/house.svg" alt="">
+          <img src="../../img/icon/house.svg" alt="" />
         </div>
-    </a>
+      </a>
 
-    <a href="../page2.html">
+      <a href="../page2.html">
         <div class="voltar-op-2">
-            <img src="../../img/icon/arrow-left.svg" alt="">
+          <img src="../../img/icon/arrow-left.svg" alt="" />
         </div>
-    </a>
+      </a>
+    </section>
 
-</section>
+    <form class="login-form">
+      <h1>Memory Game</h1>
+      <div class="login__header"></div>
 
-  <form class="login-form">
-
-    <h1>Memory Game</h1>
-    <div class="login__header">
-    </div>
-
-    <input type="text" placeholder="Name" class="login__input">
-    <button type="submit" class="login__button">Play</button>
-
-  </form>
-
-</body>
-
+      <input type="text" placeholder="Name" class="login__input" />
+      <button type="submit" class="login__button">Play</button>
+    </form>
+  </body>
 </html>

@@ -1,48 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
 
 
-/* -------------------- Cabeçalho -------------------- */
-header{
-  background-color: rgb(255, 255, 255);
-  border-bottom: 30px ;
-}
-
-header hr {
-  /* border: 2px solid rgb(0, 153, 255); */
-  margin-top: 0.5%;
-  border: 2px solid rgb(0, 0, 0);
-}
-
-.logo-container {
-  width: 27vh;
-  display: flex;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  justify-content: center;
-  text-align: center;   
-}
-
-.logo-container a {
-  text-decoration: none;
-}
-
-.logo-container img {
-  width: 45%;
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
-
-.logo-container img:active {
-  transform: scale(1.05);
-}
-
-.logo-container h1 {
-  font-size: 20px;
-  font-family: 'Rowdies', cursive;
-  color: black;
-  /* color: rgb(0, 153, 255) */
-}
 
 .voltar {
   display: flex;
