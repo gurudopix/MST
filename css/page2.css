@@ -44,7 +44,7 @@
   justify-content: center;
   margin-inline: auto;
   margin-top: 3%;
-  max-width: 650px;
+  max-width: 750px;
 }
 
 .jogo {
@@ -53,9 +53,9 @@
   border-radius: 20px;
   box-shadow: 10px 7px 15px rgb(51, 51, 51);
   cursor: pointer;
-  height: 165px;
+  height: 200px;
   transition: 0.1s all;
-  width: 165px;
+  width: 200px;
 }
 
 .jogo:hover {
@@ -91,5 +91,6 @@
   .jogos {
     align-items: center;
     flex-direction: column;
+    padding-bottom: 60px;
   }
 }
