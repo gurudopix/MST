@@ -29,6 +29,7 @@
 
 .jogar .btn-jogar:hover {
   background-color: rgb(211, 237, 255);
+  transform: scale(1.03);
 }
 
 .jogar .btn-jogar:hover:active {
